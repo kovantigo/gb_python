@@ -5,11 +5,10 @@ for item in product:
         ruble, cent = item.split('.')
         if len(cent) != 2:
             cent = f'{cent}0'
-        item = f'{ruble} руб {cent} коп'
+        print(f'{ruble} руб {cent} коп', end=', ')
     else:
         ruble = str(item)
-        item = f'{ruble} руб 00 коп'
-print(product)
+        print(f'{ruble} руб 00 коп', end=', ')
 #----------------------------------------------------------------------------------------------
 print('\n')
 
