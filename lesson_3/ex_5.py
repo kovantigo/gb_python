@@ -29,4 +29,4 @@ def get_jokes(n, flag=False):
             joke_list.append(f'{rand_nou} {rand_adv} {rand_adj}')
     return joke_list
 
-print(get_jokes(3, flag=False))
+print(get_jokes(3, flag=True))
