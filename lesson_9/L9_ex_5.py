@@ -25,3 +25,4 @@ handle = Handle()
 
 for item in [pen, pencil, handle]:
     item.draw()
+    
